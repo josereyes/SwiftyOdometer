@@ -59,7 +59,7 @@ Pod::Spec.new do |spec|
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-  spec.platform     = :ios
+  spec.platform     = :ios, '11.0'
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -78,4 +78,5 @@ Pod::Spec.new do |spec|
   #
 
   spec.source_files  = "Classes", "Classes/*.{swift}"
+  spec.swift_version = '5.0'
 end
