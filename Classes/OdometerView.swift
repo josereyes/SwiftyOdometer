@@ -9,7 +9,7 @@
 import UIKit
 import CoreGraphics
 
-class OdometerView: UIView {
+public class OdometerView: UIView {
     private let reuseKey = "ReuseTextLabelKey"
     private let kAnimationKey = "OdometerAnimationKey"
 
